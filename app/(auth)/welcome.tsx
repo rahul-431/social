@@ -24,7 +24,7 @@ const OnBoarding = () => {
         </TouchableOpacity>
         <TouchableOpacity
           className="flex w-full items-end justify-center p-5"
-          onPress={() => router.push("/(auth)/sign-up")}
+          onPress={() => router.push("/(auth)/sign-in")}
         >
           <Text className="underline text-base font-robotoRegular">Skip</Text>
         </TouchableOpacity>
@@ -58,7 +58,7 @@ const OnBoarding = () => {
       <CustomButton
         onPress={() => {
           isLastItem
-            ? router.push("/(auth)/sign-up")
+            ? router.push("/(auth)/sign-in")
             : ref.current?.scrollBy(1);
         }}
         title={isLastItem ? "Get started" : "Next"}

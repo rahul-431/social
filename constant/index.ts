@@ -2,6 +2,9 @@ import swiper1 from "@/assets/images/swiper1.jpg";
 import swiper2 from "@/assets/images/swiper2.jpg";
 import swiper3 from "@/assets/images/swiper3.jpg";
 import arrowLeft from "@/assets/icons/arrow-left.png";
+import apple from "@/assets/icons/apple.png";
+import google from "@/assets/icons/google.png";
+import facebook from "@/assets/icons/facebook.png";
 export const images = {
   swiper1,
   swiper2,
@@ -9,6 +12,9 @@ export const images = {
 };
 export const icons = {
   arrowLeft,
+  facebook,
+  apple,
+  google,
 };
 
 export const onBoarding = [
